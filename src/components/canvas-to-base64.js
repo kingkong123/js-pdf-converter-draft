@@ -47,7 +47,6 @@ const CanvasToBase64 = (props) => {
   }, [files, images]);
 
   const handleSetImage = (dataUri) => {
-    console.log(1, images.length);
     setImages([...images, dataUri]);
 
     if (idx < files.length) {

@@ -33,7 +33,6 @@ function App() {
   const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop })
 
   const handleSetImage = (dataUris) => {
-    console.log(123);
     setImages(dataUris);
 
     setShowPrint(true);
